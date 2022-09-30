@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{EC6D354F-07A8-4FF7-BA0F-D53BB1BE1E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonPrefix", "ConsoleApp1\LongestCommonPrefix.csproj", "{EC6D354F-07A8-4FF7-BA0F-D53BB1BE1E03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTypeProjectConfigCheck", "NullableType\NullableTypeProjectConfigCheck.csproj", "{A4D41812-3A2E-4475-9823-A753086C1134}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTypeBadPerformance", "NullableTypeBadPerformance\NullableTypeBadPerformance.csproj", "{4D2CEFB1-FA92-4EDD-823A-913F6B13BE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicVsObject", "DynamicVsObject\DynamicVsObject.csproj", "{3C313755-FDF1-46FE-9D0B-6523A54CCDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveObsessionCodeSmell", "PrimitiveObsessionCodeSmell\PrimitiveObsessionCodeSmell.csproj", "{2A865B85-37E3-445F-AEE9-80DAE221A27F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{EC6D354F-07A8-4FF7-BA0F-D53BB1BE1E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC6D354F-07A8-4FF7-BA0F-D53BB1BE1E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC6D354F-07A8-4FF7-BA0F-D53BB1BE1E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D41812-3A2E-4475-9823-A753086C1134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D41812-3A2E-4475-9823-A753086C1134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D41812-3A2E-4475-9823-A753086C1134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D41812-3A2E-4475-9823-A753086C1134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2CEFB1-FA92-4EDD-823A-913F6B13BE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2CEFB1-FA92-4EDD-823A-913F6B13BE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2CEFB1-FA92-4EDD-823A-913F6B13BE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2CEFB1-FA92-4EDD-823A-913F6B13BE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C313755-FDF1-46FE-9D0B-6523A54CCDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C313755-FDF1-46FE-9D0B-6523A54CCDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C313755-FDF1-46FE-9D0B-6523A54CCDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C313755-FDF1-46FE-9D0B-6523A54CCDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A865B85-37E3-445F-AEE9-80DAE221A27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A865B85-37E3-445F-AEE9-80DAE221A27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A865B85-37E3-445F-AEE9-80DAE221A27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A865B85-37E3-445F-AEE9-80DAE221A27F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

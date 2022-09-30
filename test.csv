@@ -1,0 +1,3 @@
+Char[],Char[].Length,Char[].NativeLength,Char[].LongLength,Char[].Rank,Char[].SyncRoot,Char[].IsReadOnly,Char[].IsFixedSize,Char[].IsSynchronized
+System.Char[],2,2,2,1,System.Char[],False,True,False
+System.Char[],2,2,2,1,System.Char[],False,True,False
