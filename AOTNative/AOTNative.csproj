@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+
+    <!--Publishing your app as native AOT produces an app that is self-contained and that has been ahead-of-time (AOT) compiled to native code.-->
+    
+    <!--AOT compiler compiles entire assemblies(in CIL, or language X) into native machine code(language Y) 
+    before the program is run. JIT compiler compiles individual methods and classes(in CIL, or language X) 
+    into native machine code(language Y) when the methods are called.-->
+    
+     <!--what is self-contain?    
+    Publish self-contained
+    Publishing your app as self-contained produces a platform-specific executable. 
+    The output publishing folder contains all components of the app, including the .NET libraries and target runtime. 
+    The app is isolated from other .NET apps and doesn't use a locally installed shared runtime. The user of your app isn't required to download and install .NET.-->
+    
+  
+    <!--pre-requiste
+    
+    Visual studio 2022
+    c++ workflow
+    
+    C:\Program Files\dotnet\sdk\7.0.100-rc.1.22431.12\Sdks\Microsoft.DotNet.ILCompiler\build\Microsoft.NETCore.Native.Windows.targets(116,5): error : 
+    Platform linker not found. To fix this problem, download and install Visual Studio 2022 from http://visualstudio.com. 
+    Make sure to install the Desktop Development for C++ workload. For ARM64 development also install C++ ARM64 build tools. [C:\leetcode\AOTNative\AOTNative.csproj]-->
+  
+    <!--how to enable debug?
+      <StripSymbols>true</StripSymbols>-->
+  
+  </PropertyGroup>
+
+</Project>
